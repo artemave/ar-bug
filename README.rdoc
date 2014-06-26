@@ -1,12 +1,13 @@
-== Setup
+=== Setup
 
 Clone, `bundle install`, `rake db:create db:migrate`
 
-== Demo
+=== Demo
 
 In `rails c`:
 
 ```
+
 > p = Post.create!
 > u = User.create!
 > p.comments.where(user_id: u.followers)
