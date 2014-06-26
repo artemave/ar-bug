@@ -1,8 +1,8 @@
-=== Setup
+### Setup
 
 Clone, `bundle install`, `rake db:create db:migrate`
 
-=== Demo
+### Demo
 
 In `rails c`:
 
